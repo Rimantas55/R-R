@@ -6,6 +6,9 @@
 	<title>LogIn</title>
 </head>
 <body>
+	<a href="some_stuff.php">some_stuff</a>	
+		
+
 	<div class="container">
 		<div class="row">
 			<div class="col-4">
@@ -27,30 +30,28 @@
 					<div class="form-group">
 						<div class="form-check">
 							<div>
-							<input class="form-check-input" type="checkbox" id="gridCheck">
-							<label class="form-check-label" for="gridCheck">
-								Employee
-							</label>
+								<input class="form-check-input" type="checkbox" id="gridCheck">
+								<label class="form-check-label" for="gridCheck">
+									Employee
+								</label>
 							</div>
 							<div>
-							<input class="form-check-input" type="checkbox" id="gridCheck">
-							<label class="form-check-label" for="gridCheck">
-								Team Lead
-							</label>
+								<input class="form-check-input" type="checkbox" id="gridCheck">
+								<label class="form-check-label" for="gridCheck">
+									Team Lead
+								</label>
 							</div>
-						<div>
-							<input class="form-check-input" type="checkbox" id="gridCheck">
-							<label class="form-check-label" for="gridCheck">
-								R&R Admin
-							</label>
+							<div>
+								<input class="form-check-input" type="checkbox" id="gridCheck">
+								<label class="form-check-label" for="gridCheck">
+									R&R Admin
+								</label>
 							</div>
 						</div>
 					</div>
 					<a href="employee.php" type="submit" class="btn btn-primary">Log In</a>
 				</form>
 
-<a href="http://www.day.lt" >dadad</a>
-<a href="https://www.google.com">Google</a>
 
 			</div>
 			<div class="col-4">
