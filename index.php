@@ -6,13 +6,13 @@
 	<title>LogIn</title>
 </head>
 <body>
+	<!--linkas kur browseryje rodomi kokie nors gal reikalingi sablonai-->
 	<a href="some_stuff.php">some_stuff</a>	
-		
 
 	<div class="container">
 		<div class="row">
 			<div class="col-4">
-
+				<!--Tuscias col-->
 			</div>
 			<div class="col-4">
 				<h1>Log In</h1>
@@ -52,15 +52,11 @@
 					<a href="employee.php" type="submit" class="btn btn-primary">Log In</a>
 				</form>
 
-
 			</div>
 			<div class="col-4">
-
+				<!--Tuscias col-->
 			</div>
-
 		</div>
-
-
 	</div>
 
 

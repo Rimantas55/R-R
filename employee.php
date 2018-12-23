@@ -8,7 +8,7 @@
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="con-6">
+			<div class="col-4">
 				<img src="images/photo.jpg"> 
 				<div>
 					Hello, Rimantas Danilevicius ID 621000
@@ -27,81 +27,297 @@
 
 				</div>
 			</div>
-			<div class="con-6">
+			<div class="col-8">
 				<div class="row">
 					<div class="col-12">
-						
-						<h3>Engagement</h3> 
-						
-							<label for="inputAddress">Search Activity</label>
+						<div>
+							<h3>Engagement</h3> 
+						</div>
+						<div>
+							<label for="inputAddress">Search for Activity</label>
 							<input type="text" id="inputAddress" placeholder="Search...">
-	<form class="form-inline">
-  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Sports</label>
-  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-    <option selected>Choose..</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
+						</div>
 
-  <div class="custom-control custom-checkbox my-1 mr-sm-2">
-    <input type="checkbox" class="custom-control-input" id="customControlInline">
-    <label class="custom-control-label" for="customControlInline">Remember my preference</label>
-  </div>
-<br />
-<br />
-<br />
-<br />
+						<!--First checkbox form-->
+						<form >
+							<div class="multiselect">
+								<div class="selectBox" onclick="showCheckboxes()">
+									<select>
+										<option>Sports</option>
+									</select>
+									<div class="overSelect"></div>
+								</div>
+								<div id="checkboxes">
+									<label for="one"><input type="checkbox" id="one"/>First Check Box</label>
+									<label for="two"><input type="checkbox" id="one"/>Second Check Box</label>
+									<label for="three"><input type="checkbox" id="one"/>Third Check Box</label>
+								</div>
+							</div>
+						</form>
+						<!--Second checkbox form-->
+						<form >
+							<div class="multiselect" id="multiselect">
+								<div class="selectBox" onclick="showCheckboxes1()">
+									<select>
+										<option>Events</option>
+									</select>
+									<div class="overSelect"></div>
+								</div>
+								<div id="checkboxes1">
+									<label for="summer"><input type="checkbox" id="two"/>Summer</label>
+									<label for="animal"><input type="checkbox" id="two"/>Animal</label>
+									<label for="basketball"><input type="checkbox" id="two"/>Basketball</label>
+									<label for="volleyball"><input type="checkbox" id="two"/>Volleyball</label>
+								</div>
+							</div>
+						</form>
+						<!--Third checkbox form-->
+						<form >
+							<div class="multiselect" id="multiselect">
+								<div class="selectBox" onclick="showCheckboxes3()">
+									<select>
+										<option>Option 3</option>
+									</select>
+									<div class="overSelect"></div>
+								</div>
+								<div id="checkboxes3">
+									<label for="summer"><input type="checkbox" id="two"/>Summer</label>
+									<label for="animal"><input type="checkbox" id="two"/>Animal</label>
+									<label for="basketball"><input type="checkbox" id="two"/>Basketball</label>
+									<label for="volleyball"><input type="checkbox" id="two"/>Volleyball</label>
+									<label for="football"><input type="checkbox" id="two"/>Football</label>
+								</div>
+							</div>
+						</form >
 
-<form>
-	<div class="multiselect">
-		<div class="selectBox" onclick="showCheckboxes()">
-			<select>
-				<option>Select an option</option>
-			</select>
-			<div class="overSelect"></div>
-		</div>
-		<div id="checkboxes">
-			<label for="one"><input type="checkbox" id="one"/>First Check Box</label>
-			<label for="two"><input type="checkbox" id="one"/>Second Check Box</label>
-			<label for="three"><input type="checkbox" id="one"/>Third Check Box</label>
-		</div>
-</div>
-</form>
+						<!--Fourth checkbox form-->
+						<form>
+							<div class="multiselect" id="multiselect">
+								<div class="selectBox" onclick="showCheckboxes4()">
+									<select>
+										<option>Option 4</option>
+									</select>
+									<div class="overSelect"></div>
+								</div>
+								<div id="checkboxes4">
+									<label for="summer"><input type="checkbox" id="two"/>Summer</label>
+									<label for="animal"><input type="checkbox" id="two"/>Animal</label>
+									<label for="basketball"><input type="checkbox" id="two"/>Basketball</label>
+									<label for="volleyball"><input type="checkbox" id="two"/>Volleyball</label>
+									<label for="football"><input type="checkbox" id="two"/>Football</label>
+									<label for="christmas"><input type="checkbox" id="two"/>Christmas</label>
+								</div>
+							</div>
+						</form>
+						<br / >
 
-<script>
-	var expanded = false;
-		function showCheckboxes() {
-			var checkboxes = document.getElementById("checkboxes");
-			if(!expanded) {
-				checkboxes.style.display = "block";
-				expanded = true;
-			} else {
-				checkboxes.style.display = "none";
-				expanded = false;
-			}
-	}
+						<!-- first JS for dropdown checkbox 1-->
+						<script>
+							var expanded = false;
+							function showCheckboxes() {
+								var checkboxes = document.getElementById("checkboxes");
+								if(!expanded) {
+									checkboxes.style.display = "block";
+									expanded = true;
+								} else {
+									checkboxes.style.display = "none";
+									expanded = false;
+								}
+							}
+						</script>
 
-</script>
+						<!--second JS for dropdown checkbox 2-->
+						<script>
+							var expanded = false;
+							function showCheckboxes1() {
+								var checkboxes1 = document.getElementById("checkboxes1");
+								if(!expanded) {
+									checkboxes1.style.display = "block";
+									expanded = true;
+								} else {
+									checkboxes1.style.display = "none";
+									expanded = false;
+								}
+							}
+						</script>
 
+						<!--third JS for dropdown checkbox 2-->
+						<script>
+							var expanded = false;
+							function showCheckboxes3() {
+								var checkboxes3 = document.getElementById("checkboxes3");
+								if(!expanded) {
+									checkboxes3.style.display = "block";
+									expanded = true;
+								} else {
+									checkboxes3.style.display = "none";
+									expanded = false;
+								}
+							}
+						</script>
 
-<br />
-
-
-
-
-
-
-
-
-
-						
-						<br />
-						<br />
-						<br />
+						<!--fourth JS for dropdown checkbox 2-->
+						<script>
+							var expanded = false;
+							function showCheckboxes4() {
+								var checkboxes4 = document.getElementById("checkboxes4");
+								if(!expanded) {
+									checkboxes4.style.display = "block";
+									expanded = true;
+								} else {
+									checkboxes4.style.display = "none";
+									expanded = false;
+								}
+							}
+						</script>
 					</div>
+
+					<br />
+
+				</div>
+
+				<div class="row">
+					<div>
+						<label for="inputAddress">Choose Team Lead</label>
+						<input type="text" id="inputAddress" placeholder="Search...">
+					</div>
+					<button type="submit" class="btn btn-primary btn-sm" >Submit </button>
+				</div>
+
+				<br />
+				<br />
+				<br />
+
+
+				<div class="row">
+
+					<div class="col-12">
+						<h3>Peer to Peer</h3>
+					</div>
+
 					<div class="row">
-						row 2 b2b
+						<div class="col-12">
+							<form>
+								<label for="inputAddress">Search for employee by Name or ID</label>
+								<input type="text" id="inputAddress" placeholder="Search...">
+							</form>
+
+						</div>
+						<div class="row">
+							<p>Choose for what you giving points OR right short comment: </p>
+							<div class="col-12">
+								<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+    							
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+    							
+    							<div class="exampleCheck1">
+									<input type="checkbox" class="form-check-input" id="exampleCheck1">
+    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
+    							</div>
+
+    							<div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+<button type="submit" class="btn btn-primary btn-sm" >Submit </button>
+    						</div>
+						</div>
 					</div>
 				</div>
 			</div>

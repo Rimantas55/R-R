@@ -44,6 +44,7 @@
 }
 
 /*--youtube dropdowncheck box https://www.youtube.com/watch?v=yMKTRn_THeA */
+/*--CSS for first checkbox form--*/
 
 .multiselect {
   width: 200px;
@@ -68,4 +69,98 @@
 }
 #checkboxes label:hover {
   background-color: #1e90ff;
+}
+
+/*--CSS for second checkbox form--*/
+.multiselect {
+  width: 200px;
+}
+.selectBox {
+  position: relative;
+}
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+.overSelect {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkboxes1{
+  display: none;
+  border: black #dadada solid;
+}
+#checkboxes1 label {
+  display: block;
+}
+#checkboxes1 label:hover {
+  background-color: #1e90ff;
+}
+
+
+/*--CSS for third checkbox form--*/
+.multiselect {
+  width: 200px;
+}
+.selectBox {
+  position: relative;
+}
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+.overSelect {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkboxes3 {
+  display: none;
+  border: black #dadada solid;
+}
+#checkboxes3 label {
+  display: block;
+}
+#checkboxes3 label:hover {
+  background-color: #1e90ff;
+}
+
+/*--CSS for fourth checkbox form--*/
+.multiselect {
+  width: 200px;
+}
+.selectBox {
+  position: relative;
+}
+.selectBox select {
+  width: 100%;
+  font-weight: bold;
+}
+.overSelect {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+}
+#checkboxes4 {
+  display: none;
+  border: black #dadada solid;
+}
+#checkboxes4 label {
+  display: block;
+}
+#checkboxes4 label:hover {
+  background-color: #1e90ff;
+}
+
+
+.col-12 .exampleCheck1 {
+  float:left;
+  margin-left: 45px;
+}
+
+
+
+
+
+form {
+  float: left;
+  margin: 10px;
 }
