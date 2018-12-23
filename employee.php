@@ -208,115 +208,115 @@
 							<div class="col-12">
 								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
-    							
-    							<div class="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
+								
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="exampleCheck1">
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
-    							
-    							<div class="exampleCheck1">
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
+								
+								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
-    								<label class="form-check-label" for="exampleCheck1">Check me out</label>
-    							</div>
+									<label class="form-check-label" for="exampleCheck1">Check me out</label>
+								</div>
 
-    							<div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-<button type="submit" class="btn btn-primary btn-sm" >Submit </button>
-    						</div>
+								<div class="form-group">
+									<label for="exampleFormControlTextarea1">Example textarea</label>
+									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+								</div>
+								<a href="team_lead.php" type="submit" class="btn btn-primary btn-sm" >Submit </a>
+							</div>
 						</div>
 					</div>
 				</div>

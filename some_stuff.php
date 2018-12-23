@@ -51,7 +51,7 @@
     <label class="custom-control-label" for="customControlInline">Remember my preference</label>
   </div>
 
-<hr />
+
 
 </body>
 </html>
