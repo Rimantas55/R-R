@@ -9,23 +9,76 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-4">
-				<img src="images/photo.jpg"> 
+				
 				<div>
-					Hello, Rimantas Danilevicius ID 621000
+					Hello, Rimantas Danilevicius / ID 621000
 				</div>
-				<div>
-					Active since 1999 02 16, working at cognizant 2.5 yers
+			
+				<div id="prifile_info">
+					<img src="images/photo.jpg">	 
+					<div>Active since 1999 02 16, working at cognizant 2.5 yers 
+						Current Total Points <span id="total_points">1500</span> pts <br />
+						<p style="">Waiting for approving 1800 pts (isnyksta)</p> <br />
+						<button style="background-color: lightgrey">Pending</button>
+						<button style="background-color: red">Reject</button>	 
+						<button style="background-color: green">Accepted</button>	
+					</div>	
 				</div>
-				<div>Current Total Points 1500 pts <br />
-					Waiting for approving 1800 pts (isnyksta) <br />
-					<button style="background-color: lightgrey">Pending</button>
-					<button style="background-color: red">Reject</button>	 
-					<button style="background-color: green">Accepted</button>	
-					<div>
-						<a href="history.php"><p><em>Your History</em></p></a>
-					</div>
+<!-- <hr /> -->
 
+						<div>
+							<a href="history.php"><p><em>Your History</em></p></a>
+						</div>
+
+
+
+				
+
+				<h5>Prizes & Weights Table/List</h5>
+				<div class="points1" >
+					<div class="points">
+						5 - 50 
+					</div>
+					<div>
+					Geles - 10 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 20 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 30 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 40 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 50 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 50 <br />
+					Pietus - 50 <br />
+					</div>
 				</div>
+				
+				<div class="points1" >
+					<div class="points">
+						50 - 100 
+					</div>
+					Geles - 10 <br />
+					Pietus - 20 <br />
+					Pietus - 30 <br />
+					Pietus - 40 <br />
+					Pietus - 50 <br />
+					Pietus - 50 <br />
+					Pietus - 50 <br />
+				</div>
+
+
+				<div class="points1" >
+					<div class="points">
+						200 - 1000 
+					</div>
+					
+					Geles - 10 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 20 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 30 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 40 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 50 <button class="button" style="background-color: yellow">Take </button><br />
+					Pietus - 50 <br />
+					Pietus - 50 <br />
+				</div>
+
+
 			</div>
 			<div class="col-8">
 				<div class="row">
@@ -178,10 +231,16 @@
 
 				<div class="row">
 					<div>
-						<label for="inputAddress">Choose Team Lead</label>
+						<label for="inputAddress">Choose Team Lead by name or ID</label>
 						<input type="text" id="inputAddress" placeholder="Search...">
 					</div>
-					<button type="submit" class="btn btn-primary btn-sm" >Submit </button>
+					<button type="submit" class="btn btn-primary btn-sm" >Submit </button> 
+
+					<br />
+					 <!-- <div>
+					 <p>Please, wait for aproval from your team lead</p>
+					</div> -->
+
 				</div>
 
 				<br />
@@ -192,6 +251,9 @@
 				<div class="row">
 
 					<div class="col-12">
+
+						<hr />
+
 						<h3>Peer to Peer</h3>
 					</div>
 
@@ -295,7 +357,7 @@
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
 									<label class="form-check-label" for="exampleCheck1">Check me out</label>
 								</div>
-								
+
 								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
 									<label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -305,7 +367,7 @@
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
 									<label class="form-check-label" for="exampleCheck1">Check me out</label>
 								</div>
-								
+
 								<div class="exampleCheck1">
 									<input type="checkbox" class="form-check-input" id="exampleCheck1">
 									<label class="form-check-label" for="exampleCheck1">Check me out</label>
