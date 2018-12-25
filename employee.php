@@ -378,6 +378,7 @@
 									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 								</div>
 								<a href="team_lead.php" type="submit" class="btn btn-primary btn-sm" >Submit </a>
+								<a href="rr_admin.php" type="submit" class="btn btn-success">R&R admin</a>
 							</div>
 						</div>
 					</div>
