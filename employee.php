@@ -237,12 +237,13 @@
 					<button type="submit" class="btn btn-primary btn-sm" >Submit </button> 
 
 					<br />
-					 <!-- <div>
-					 <p>Please, wait for aproval from your team lead</p>
-					</div> -->
+					 
 
 				</div>
-
+					<div class="notification">
+						Pending.. <br />
+					 <p class="alert">Please, wait for aproval from your team lead</p>
+					</div>
 				<br />
 				<br />
 				<br />

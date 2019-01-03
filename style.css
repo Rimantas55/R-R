@@ -232,3 +232,16 @@ img {
   bottom: 0px;
   border: 2px solid green;
 }
+
+
+/*notification*/
+
+.alert {
+  background-color: lightgreen;
+  padding: 10px;
+  display: none;
+}
+
+.notification:hover .alert {
+  display: block;
+}
