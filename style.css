@@ -184,7 +184,7 @@ img {
 div #prifile_info {
   border: 1px solid red;
   float: left;
-   padding: 0px;
+  padding: 0px;
   margin: 0px;
 
 }
@@ -244,4 +244,31 @@ img {
 
 .notification:hover .alert {
   display: block;
+}
+
+/*--history.php table style*/
+td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.received_points{
+  text-align: center;
+  font-size: 20pt;
+  color: green;
+}
+
+.total_points{
+  text-align: center;
+  font-size: 30pt;
+  color: lightblue;
+}
+.spent_points{
+  text-align: center;
+  font-size: 20pt;
+  color: red;
+}
+
+.history_checks{
+  text-align: center;
 }
